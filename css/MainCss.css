@@ -1,0 +1,125 @@
+﻿html {
+    background-color: black;
+    /*background-image: linear-gradient(#993399, #130613);*/
+    min-height: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    padding: 2px;
+    border-radius: 0.3em;
+}
+
+.container {
+    background: whitesmoke;
+    display: block;
+    width: 85%;
+    height: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 0.2em;
+}
+
+.header{
+    background: grey;
+    padding: 8px;
+    width: 95%;
+    margin:auto;
+    margin-top: 12px;
+    border-top-left-radius: 0.2em;
+    border-top-right-radius: 0.2em;
+}
+
+.menu {
+    color: white;
+    background: black;
+    padding: 8px;
+    width: 95%;
+    margin: auto;
+    border-bottom-left-radius: 0.2em;
+    border-bottom-right-radius: 0.2em;
+}
+.content {
+    font-size: 1.2em;
+    background: grey;
+    padding: 8px;
+    width: 95%;
+    margin: auto;
+    margin-top: 12px;
+    border-radius: 0.2em;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: darkgrey;
+    color: white;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#hello{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3em;
+    color: white;
+}
+#wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+}
+.videoInsert {
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+}
+#Contact{
+    background-color: lightgray;
+    border: none;
+    border-radius: 3%;
+    padding: 8px;
+    font-size: 0.8em;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+#Contact:hover{
+    background-color: white;
+}
+
+#holder{
+    display: block;
+}
+
+.projects{
+    padding: 3px;
+    background-color: lightgray;
+    border-radius: 0.2em;
+}
+
+.GitButton{
+    color: white;
+    border: none;
+    padding: 3px;
+    font-size: 0.8em;
+    border-radius: 0.4em;
+    background-color: black;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.GitButton:hover{
+    color: black;
+    background-color: white;
+}
