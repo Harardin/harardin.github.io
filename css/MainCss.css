@@ -103,6 +103,7 @@ img{
 }
 
 .projects{
+    padding-top: 5px;
     padding: 3px;
     background-color: lightgray;
     border-radius: 0.2em;
